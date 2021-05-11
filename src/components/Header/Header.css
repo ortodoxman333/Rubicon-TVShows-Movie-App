@@ -1,0 +1,52 @@
+header {
+  background-color: #373b69;
+  padding: 2rem;
+  display: flex;
+  justify-content: left;
+  margin: 5px 0px -32px 0px;
+}
+.header .h4 {
+  justify-content: left;
+}
+
+.person {
+  width: 100%;
+  margin-bottom: -150px;
+}
+
+.person img {
+  width: 40%;
+  border-radius: 999px;
+}
+.titlehead {
+  margin-right: 55%;
+  display: flex;
+  justify-content: left;
+  font-family: cursive;
+}
+
+.buttons_nav {
+  display: inline-block;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+  border: 1px solid #373b69;
+  background-color: rgb(221, 185, 139);
+  color: #373b69;
+  width: 120px;
+  height: 120%;
+  cursor: pointer;
+}
+.buttons_nav:focus {
+  background-color: #373b69;
+  color: rgb(221, 185, 139);
+  background: #373b69;
+  outline-width: 0;
+}
+.buttonss_nav {
+  margin-left: 15%;
+}
+
+@media (max-width: 320px) {
+  .buttons_nav {
+    width: 50%;
+  }
+}
