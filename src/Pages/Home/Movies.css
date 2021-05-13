@@ -180,3 +180,9 @@
 .videos-movie {
   margin: 5% 0% 0% 12%;
 }
+
+@media (max-width: 1280px) {
+  .videos-movie {
+    width: 80%;
+  }
+}
